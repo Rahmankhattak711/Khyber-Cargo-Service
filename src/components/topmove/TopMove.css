@@ -1,0 +1,26 @@
+.top-move-button {
+    position: fixed;
+    right: 4%;
+    bottom: 4%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(57, 66, 164);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .top-move-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .top-move-button.show {
+    opacity: 1;
+  }
+  
